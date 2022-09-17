@@ -398,10 +398,12 @@ section .title::after {
 }
 
 /* project section styling */
+
 .project .title::after {
   content: "see my work";
 }
 .project .carousel .card {
+   height: 530px;
   background: #222;
   border-radius: 6px;
   padding: 25px 35px;
