@@ -690,6 +690,7 @@ footer span a:hover {
     width: 100%;
     margin-bottom: 35px;
   }
+
 }
 
 @media (max-width: 690px) {
@@ -739,7 +740,15 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
+  /* #datawork{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+  } */
 }
+   
+
+
+
 
 /* github calendar */
 

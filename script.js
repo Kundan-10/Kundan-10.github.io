@@ -73,3 +73,9 @@ $(document).ready(function () {
 });
 
 
+
+    GitHubCalendar(".calendar", "Kundan-10");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "Kundan-10", { responsive: true });
+
+           
