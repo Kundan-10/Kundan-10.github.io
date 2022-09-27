@@ -166,6 +166,88 @@ section .title::after {
   filter: brightness(90%);
 }
 
+
+
+.outer{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+  -6px -6px 10px -1px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  background: #521798;
+  
+ 
+
+}
+.inner{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  background: black;
+  align-items: center;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+              inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+              -0.5px -0.5px 0px  rgba(255, 255, 255, 1),
+              0.5px 0.5px 0px  rgba(255, 255, 255, 1),
+              0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+ 
+  
+}
+.number{
+  font-weight: 600;
+  color: white;
+  font-size: 25px;
+}
+.statistic{
+  padding-top: 50px;
+  /* background: white; */
+
+}
+.statistic>h1{
+      /* color: white; */
+      font-family: 'Poppins',sans-serif;
+      /* font-size: 25px; */
+      text-align: center;
+      font-size: 36px;
+      padding: 60px;
+      color: white;
+}
+#datawork{
+
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid crimson;
+  padding: 10px;
+ 
+  /* text-align: center; */
+}
+.circle1>h3{
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-top: 20px;
+}
+.circle1>p{
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.circle1{
+  display:block;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+
+
 /* home section styling */
 .home {
   display: flex;
@@ -614,11 +696,40 @@ footer span a:hover {
   text-decoration: underline;
 }
 
+
 /* responsive media query start */
+@media all and (min-width: 320px) and (max-width: 767px) {
+
+  #datawork{
+ 
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+  
+  }
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+
+  #datawork{
+ 
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+  
+  }
+}
+
+
 @media (max-width: 1104px) {
   .about .about-content .left img {
     height: 350px;
     width: 350px;
+  }
+  #datawork{
+ 
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+  
   }
 }
 
@@ -626,6 +737,13 @@ footer span a:hover {
   .max-width {
     padding: 0 50px;
   }
+  #datawork{
+ 
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+  
+  }
+
 }
 @media (max-width: 947px) {
   .menu-btn {
@@ -690,6 +808,12 @@ footer span a:hover {
     width: 100%;
     margin-bottom: 35px;
   }
+  #datawork{
+ 
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+  
+  }
 
 }
 
@@ -709,9 +833,21 @@ footer span a:hover {
   .services .serv-content .card {
     width: 100%;
   }
+
+  #datawork{
+ 
+    display: grid; 
+    grid-template-columns: repeat(2,1fr);
+  
+  }
 }
 
 @media (max-width: 500px) {
+
+  #datawork{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+  }
   .home .home-content .text-2 {
     font-size: 50px;
   }
@@ -740,10 +876,14 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
-  /* #datawork{
-    display:grid;
+
+  #datawork{
+ 
+    display: grid; 
     grid-template-columns: repeat(1,1fr);
-  } */
+  
+  }
+ 
 }
    
 
@@ -954,76 +1094,3 @@ text.ContributionCalendar-label {
 
 /* stastics */
 
-#statistic{
-  margin-left: 70px;
-
-}
-.outer{
-  margin-left: 80px;
-  height: 140px;
-  width: 140px;
-  border-radius: 50%;
-  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-  -6px -6px 10px -1px rgba(0, 0, 0, 0.15);
-  padding: 10px;
-  background: #521798;
-
-}
-.inner{
-  
-  height: 120px;
-  width: 120px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  background: black;
-  align-items: center;
-  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
-              inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
-              -0.5px -0.5px 0px  rgba(255, 255, 255, 1),
-              0.5px 0.5px 0px  rgba(255, 255, 255, 1),
-              0px 12px 10px -10px rgba(0, 0, 0, 0.05);
- 
-  
-}
-.number{
-  font-weight: 600;
-  color: white;
-  font-size: 25px;
-}
-.statistic{
-  padding-top: 50px;
-  /* background: white; */
-
-}
-.statistic>h1{
-      /* color: white; */
-      font-family: 'Poppins',sans-serif;
-      /* font-size: 25px; */
-      text-align: center;
-      font-size: 36px;
-      padding: 60px;
-      color: white;
-}
-#datawork{
-  width: 90%;
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 20px;
-  justify-content: space-evenly;
-  align-items: center;
-  border: 3px solid aqua;
-  padding: 20px;
-  text-align: center;
-}
-.circle1>h3{
-  font-family: 'Poppins',sans-serif;
-  font-size: 20px;
-  color: white;
-  padding-top: 20px;
-}
-.circle1>p{
-  font-family: 'Poppins',sans-serif;
-  font-size: 20px;
-  color: white;
-}
