@@ -1222,14 +1222,31 @@ footer span a:hover {
   
   }
   .project-s>.image{
-    width: 90%;
+    width: 100%;
   }
   .project-s>.paragraph{
-    width: 90%;
+    width: 100%;
   }
  .kun>a>img{
-  width: 30%;
+  width: 20%;
  }
+
+.project-s>.paragraph>div>a{
+  border: 1px solid #5687C7;
+  display: flex;
+  gap: 10px;
+  color: white;
+  /* display: inline-block; */
+  background:#5687C7 ;
+  color: white;
+  font-size: 12px;
+  padding: 10px  16px;
+  margin-top: 20px;
+  border-radius:6px ;
+  border: 2px solid #5687C7;
+  transition: all 0.3s ease;
+  margin-left: 20px;
+}
 .kun{
   display: flex;
   justify-content: center;
