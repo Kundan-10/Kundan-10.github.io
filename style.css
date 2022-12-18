@@ -94,6 +94,15 @@ section .title::after {
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
 }
+.linkpanchi{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.linkpanchi>a>img{
+  width: 30%;
+  border-radius: 50%;
+}
 .navbar.sticky {
   padding: 15px 0;
   background: rgb(6, 87, 109);
@@ -1206,6 +1215,10 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
+  .linkpanchi>a>img{
+    width: 50%;
+    border-radius: 50%;
+  }
 
   #datawork{
  
@@ -1216,7 +1229,7 @@ footer span a:hover {
 
   .project-s{
 
-    width: 50%;
+    /* width: 70%; */
     display: grid;
     grid-template-columns: repeat(1,1fr);
   
@@ -1227,9 +1240,11 @@ footer span a:hover {
   .project-s>.paragraph{
     width: 100%;
   }
- .kun>a>img{
-  width: 20%;
- }
+.linkpanchi{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
 
 .project-s>.paragraph>div>a{
   border: 1px solid #5687C7;
