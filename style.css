@@ -493,50 +493,6 @@ section .title::after {
   width: 70%;
 }
 
-/* project section styling */
-
-/* .project .title::after {
-  content: "see my work";
-} */
-
-/* kkkk */
-/* .project .carousel .card {
-   height: 530px;
-  background: #222;
-  border-radius: 6px;
-  padding: 25px 35px;
-  text-align: center;
-  overflow: hidden;
-  transition: all 0.3s ease;
-}
-.project .carousel .card:hover {
-  background: rgb(4,53,3);
-}
-.project .carousel .card .box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-}
-.project .carousel .card:hover .box {
-  transform: scale(1.05);
-}
-.project .carousel .card .text {
-  font-size: 25px;
-  font-weight: 500;
-  margin: 10px 0 7px 0;
-}
-
-.repo-links {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 45px;
-  margin-top: 5%;
-  /* border: 2px solid wheat; */
-/* } */
-
 
 #projects-1,#projects-2,#projects-3{
   margin-bottom: 170px;
@@ -637,16 +593,7 @@ section .title::after {
   border:6 px solid #5687C7;
   
 }
-/* #project .title{
-  padding: 20px;
-  font-size: 36px;
-  color: white;
-  background-color: #000;
-  margin: 40px;
-  border-radius: 70px;
-  font-size: 40px;
 
-} */
 
 
 :root {
@@ -1268,13 +1215,5 @@ footer span a:hover {
   align-items: center;
 }
 }
-   
 
-
-
-
-/* github calendar */
-
-
-/* stastics */
 
