@@ -1215,13 +1215,26 @@ footer span a:hover {
   }
 
   .project-s{
-    padding: 20px;
-    /* width: 90%; */
+
+    width: 50%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    gap: 50px;
+  
   }
- 
+  .project-s>.image{
+    width: 90%;
+  }
+  .project-s>.paragraph{
+    width: 90%;
+  }
+ .kun>a>img{
+  width: 30%;
+ }
+.kun{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 }
    
 
